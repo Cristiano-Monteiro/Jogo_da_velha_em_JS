@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="./src/css/jogo_da_velha.css">
+</head>
+<body>
+    <div class="scoreboard">
+        <img src="./src/images/icon_x.svg" alt="icon x">
+        <span id="x_victory">0</span>
+    </div>
+    <main>
+        <div class="row">
+            <div class="column 0"   id="1"></div>
+            <div class="column 0 1" id="2"></div>
+            <div class="column 0 2" id="3"></div>
+        </div>
+        <div class="row">
+            <div class="column 1 0" id="4"></div>
+            <div class="column 1"   id="5"></div>
+            <div class="column 1 2" id="6"></div>
+        </div>
+        <div class="row">
+            <div class="column 2 0" id="7"></div>
+            <div class="column 2 1" id="8"></div>
+            <div class="column 2"   id="9"></div>
+        </div>
+    </main>
+    <div class="scoreboard">
+        <img src="./src/images/icon_o.svg" alt="icon o">
+        <span id="o_victory">0</span>
+    </div>
+    <div class="game_end"></div>
+    <p>
+        ©2022 - Todos os direitos reservados a 
+        <a href="https://github.com/Cristiano-Monteiro">Cristiano Monteiro</a>.
+    </p>
+    <script src="./src/js/jogo_da_velha.js"></script>
+</body>
+</html>
