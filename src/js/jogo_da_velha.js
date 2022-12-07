@@ -1,5 +1,5 @@
-let icone_x = 'url(/src/images/icon_x.svg)';
-let icone_o = 'url(/src/images/icon_o.svg)';
+let icone_x = 'url(./src/images/icon_x.svg)';
+let icone_o = 'url(./src/images/icon_o.svg)';
 let column = document.querySelectorAll('.column');
 let game_end = document.querySelector('.game_end');
 let x_victory = document.getElementById('x_victory');
